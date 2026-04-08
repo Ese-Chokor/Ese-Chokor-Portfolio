@@ -6,31 +6,140 @@
 body{
     font-family: 'Playfair Display', serif;
     background:#EBEBEB;
+    text-align: center;
 }
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 20px 20px;
     background: #101010 ;
     color: #ffffff;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-}
-nav ul{
-    display: flex;
-    gap: 60px;
-    list-style: none;
-}
-nav ul li a{
-    text-decoration: none;
+
+.nav-links a{
     color: #ffffff;
-    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.1rem;
 }
+
+.cta .btn{
+    color: #101010;
+    text-decoration: none;
+    background: #f9f9f9;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#home{
+    height: fit-content;
+    width: 100%;
+    padding: 50px 200px;
+}
+.home-content{
+    line-height: 1.6;
+}
+
+.home-content p{
+    font-size: 1.5rem;
+}
+.home-content h2{
+    font-size: 3rem;
+}
+.home-buttons{
+    padding: 50px 0;
+}
+.home-buttons a{
+    margin: 0 20px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.solidbtn{
+    background: #101010;
+    color: #f9f9f9;
+}
+.outlinebtn{
+    background: #f9f9f9;
+    color: #101010;
+    border: 2px solid #101010;
+}
+.outlinen:hover{
+    background: #101010;
+    color: #f9f9f9;
+}
+.solidbtn:hover{
+    background: #f9f9f9;
+    color: #101010;
+    border: 2px solid #101010;
+}
+#skills{
+    height:30vh;
+    padding: 20px 0px;
+    /* margin: 20px; */
+}
+.skills-container{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#skills h2{
+    margin-bottom: 30px;
+}
+.skills img{
+    width: 100px;
+    margin: 0 20px;
+}
+
+#projects{
+    height: fit-content;
+    width: 100%;
+    /* display: flex; */
+}
+.project{
+    display: flex;
+    background: #f9f9f9;
+    margin: 50px 200px;
+    padding: 50px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+.project img{
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+}
+.project h3{
+    padding: 50px 0px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.des{
+    padding: 0px 40px;
+    text-align: left;
+}
+.des p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+.project .stack{
+    margin 20px;
+}
+
+.projectbutton{
+  
+    margin: 50px;
+}
+.projectbutton a{
+   
+    margin: 0 20px;
+}
+
