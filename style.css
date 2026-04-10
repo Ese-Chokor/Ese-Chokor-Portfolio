@@ -281,6 +281,9 @@ footer{
         display: inline-block;
     }
 
+    #projects{
+        margin-top: 80px;
+    }
     .project{
             flex-direction: column;
             margin: 20px;
