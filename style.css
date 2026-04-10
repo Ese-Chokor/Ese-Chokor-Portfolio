@@ -226,9 +226,9 @@ footer{
     color: #f9f9f9;
     padding: 20px;
     text-align: center;
-    position: sticky;
+    /* position: sticky;
     bottom: 0;
-    width: 100%;
+    width: 100%; */
 }
 
 /* Tablets and Mobile Responsiveness */
