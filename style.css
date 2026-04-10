@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    
+
 }
 header{
     display: flex;
@@ -221,16 +221,14 @@ img{
     border: 2px solid #101010;
 }
 footer{
-    margin-top: 40px;
+    margin-top: 60px;
     background: #101010;
     color: #f9f9f9;
     padding: 20px;
     text-align: center;
-    position: fixed;
+    position: sticky;
     bottom: 0;
-    left: 0;
     width: 100%;
-    z-index: 1000;
 }
 
 /* Tablets and Mobile Responsiveness */
