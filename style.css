@@ -90,6 +90,7 @@ img{
     border-radius: 10px;
     font-size: 1.2rem;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .solidbtn{
@@ -101,7 +102,7 @@ img{
     color: #101010;
     border: 2px solid #101010;
 }
-.outlinen:hover{
+.outlinebtn:hover{
     background: #101010;
     color: #f9f9f9;
 }
